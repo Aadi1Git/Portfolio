@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./port.css" >
+<!-- Font Awesome CDN (latest version as of now) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div id="header">
+         <div class="container">
+            <nav>
+                <img src="./logo1.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                     <li><a href="#About">About</a></li>
+                       <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                      <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>CSE Undergraduate | 3rd Year</p>
+                <h1>Hi I'am <span>Aaditya Jaysawal</span></h1>
+            </div>
+         </div>
+    </div>
+
+    <!-- about -->
+
+
+<div id="About">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+             <img src="./user.jpg">
+            </div>
+             <div class="about-col-2">
+                <h1 class="sub-title">About me</h1>
+                <p>I am currently pursuing a Bachelor of Technology (B.Tech) in Computer Science Engineering at the Kalinga Institute of Industrial Technology (KIIT), Bhubaneswar, where I maintain a strong academic record with a CGPA of 9.34/10. My journey in education began with a solid foundation in science at Kathmandu Model Secondary School, where I completed Grade XII under the National Examination Board with a GPA of 3.67/4 (92%). Prior to that, I earned a GPA of 3.65/4 (91.5%) in my Grade X Secondary Education Examination from Jaycees Secondary English Boarding School, Malangawa. As a dedicated and passionate student, I am constantly seeking opportunities to expand my knowledge and apply it to real-world challenges in technology and innovation.</p>
+                
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('Experince')">Experince</p>
+                    <p class="tab-links"  onclick="opentab('Education')">Education</p>
+                 </div>
+
+                 <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                   <li><span>Programming Language</span><br>C,OOPJ,SQL,HTML,CSS,Javascript</li>
+                        <li><span>Database Management</span><br>DBMS(Basic)</li>
+                        <li><span>Concepts</span><br>  Data Structure,Problem solving </li>                   
+                </ul>
+                 </div>
+
+                 <div class="tab-contents" id="Experince">
+                    <ul>
+                   <li><span>.....</span><br>......</li>
+                        <li><span>.....</span><br>......</li>
+                        <li><span>......</span><br>.....</li>                   
+                </ul>
+                 </div>
+
+                 <div class="tab-contents" id="Education"> 
+                    <ul>
+                   <li><span>Bachelor of Technology(B.TECH) in Computer Science Engineering </span><br>Kalinga Institute of Industrial Technology (KITT),Bhubaneswar | August 2023-June 2027 (Ongoing) | Current  CGPA: 9.34/10 </li>
+                        <li><span>Grade XII  |  National Examination Board (NEB)</span><br> Kathmandu Model Secondary School (KMSS/KMC),Lalitpur | GPA : 3.67/4 (92%)</li>
+                        <li><span>Grade X  | Secondary Education Examination(SEE)</span><br>Jaycees Secondary English Boarding School , Malangawa |  GPA: 3.65/4 (91.5%)</li>                   
+                </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio -->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+     <div class="work-list">
+        <div class="work">
+            <img src="./ww1.png">
+            <div class="layer">
+                <h3>Amazone_Clone</h3>
+                <p>This is the clone of Amazone Shopping Website visit by clicking the arrow</p>
+                <a href="https://aadi1git.github.io/Amazon_Clone/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+         <div class="work">
+            <img src="./ww2.png">
+             <div class="layer">
+                <h3>TIC_TAC_TOE</h3>
+                <p>You can play this game by clicking the arrow</p>
+                <a href="https://aadi1git.github.io/Tic-Tac-Toe/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+         <div class="work">
+            <img src="./ww3.png">
+             <div class="layer">
+                <h3>ROCK_PAPER_SCISSOR</h3>
+                <p>You can play this game by clicking the arrow.</p>
+                              <a href="https://aadi1git.github.io/Rock_Paper_Scissors/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+     </div>
+     <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+
+ <!-- Contact -->
+
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+             <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>aadityajaysawal@gmail.com</p>
+               <p><i class="fa-solid fa-phone"></i>+919631043954</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/aaditya-jaysawal-487404298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/jaysawal_aaditya__?igsh=dnJnNm54eG80eTl3"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/aaditya.jaysawal"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/Aadi1Git"><i class="fa-brands fa-github"></i></a>
+              </div>
+                <a href="./My-Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+         <div class="contact-right">
+           <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+          </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy Aaditya Made with <i class="fa-solid fa-heart"></i> by 1stop.</p>
+    </div>
+ </div>
+
+<script src="./port.js"></script>
+<script>
+     const scriptURL = 'https://script.google.com/macros/s/AKfycbzQugnfNc4CZxGEQof9-6b-G21MdV8XcTb4ClNudzBHZdVeEzO4z80287WgOlB_hGCD/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
